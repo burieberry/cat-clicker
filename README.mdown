@@ -1,0 +1,23 @@
+# Cat Clicker App
+Created January 2017.
+
+## Objective
+
+Wrote some vanilla JS and organized it using MVC (Model-View-Controller) JS design pattern. (Refactored with separation of concerns.)
+
+Added various functionality (cat click counter, admin panel to edit cat name/image).
+
+Created from scratch! All my own code, no template was provided.
+
+***
+
+## How to Use
+
+- Download repo and open `index.html` on a browser.
+- Select a cat from the list of cats (click on a button with the cat's name!).
+- The selected cat will be displayed with his/her name, image, and click count.
+- Click on the cat to increase click count!
+- Click on the Admin button to open the admin panel. Change cat's name, image, click count if you wish.
+- Click `Submit` to update the data. Click `Cancel` to cancel any changes.
+
+***
