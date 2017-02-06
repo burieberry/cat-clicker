@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="utf-8">
+  <title>Cat Clicker V4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Cat Clicker</h1>
+  <h2><em>Select a cat!</em></h2>
+  <ul id="cat-container"></ul>
+  <div id="display-area">
+    <img id="displayCatImg" src="">
+    <div class="display-info">
+      <h3 id="displayCatName"></h3>
+      <p>Click count: <span id="catCount"></span></p>
+      <button id="admin-button">Admin</button>
+      <form id="adminForm">
+        <p>Cat name: <input type="text" name="catName"></p>
+        <p>URL: <input type="text" name="catURL"></p>
+        <p>Clicks: <input type="text" name="catClicks"></p>
+        <input type="button" id="cancel" value="Cancel">
+        <input type="submit" id="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

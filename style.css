@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  margin: 30px auto;
+  width: 1440px;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2  {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+#cat-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 500px;
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+.cat {
+  width: 100px;
+  padding: 0 10px;
+}
+
+#admin-button {
+  width: 100px;
+  margin: 30px 0;
+}
+
+#adminForm {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+#name {
+  max-width: 100%;
+  width: 400px;
+  margin-left: 10px;
+}
+
+#url {
+  max-width: 100%;
+  width: 430px;
+  margin: 15px 10px 10px;
+}
+
+input {
+  width: 50px;
+  margin: 10px 10px 0 0;
+}
+
+#display-area {
+  display: block;
+  max-width: 100%;
+  width: 1000px;
+  margin: 30px auto;
+}
+
+#displayCatImg {
+  display: inline-block;
+  width: 600px;
+  max-width: 100%;
+}
+
+.display-info {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin-left: 30px;
+}
